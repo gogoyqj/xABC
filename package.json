@@ -1,0 +1,30 @@
+{
+  "name": "xabc",
+  "version": "1.0.0",
+  "description": "x ABC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogoyqj/xABC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gogoyqj/xABC/issues"
+  },
+  "homepage": "https://github.com/gogoyqj/xABC#readme",
+  "dependencies": {
+    "@types/react": "^16.7.13",
+    "@types/react-redux": "^6.0.10",
+    "@types/react-router-dom": "^4.3.1",
+    "react": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.1"
+  }
+}
