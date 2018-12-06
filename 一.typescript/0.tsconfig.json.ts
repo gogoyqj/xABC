@@ -4,7 +4,7 @@
     "compilerOptions": {
       "baseUrl": ".",
       "outDir": "build/dist",
-      "module": "esNext",
+      "module": "esNext", // 生成模块的格式: UMD, AMD, CommonJS 之类
       "target": "es3",
       "lib": ["esnext", "dom"],
       "sourceMap": true,

@@ -125,7 +125,7 @@
     console.log(obj.name);
   };
   function fun2(): Array<{ id?: number; name?: string }> {
-    // pk
+    // ok
     // return [{ }];
     // wrong
     return [{ age: 2 }];

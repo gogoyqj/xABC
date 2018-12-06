@@ -129,4 +129,19 @@
   // window.LocalDataMessages = {
 
   // }
+
+  function aaa(): Promise<{}> {
+    return new Promise((rs) => {
+      rs(1);
+    });
+  }
+
+  function aaaa(): Promise<undefined> {
+    return new Promise((rs) => {
+      rs();
+    });
+  }
+  async function cccc() {
+    const res: number = await aaa();
+  }
 }
