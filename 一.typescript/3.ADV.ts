@@ -117,31 +117,9 @@
 
 // ### 全局变量
 {
-  // declare namespace Root {
-  //   interface LocalDataMessages {
-  //     antd: any
-  //     messages: { [key: string]: any }
-  //     lang: any
-  //     locale: string
-  //   }
-  // }
-
-  // window.LocalDataMessages = {
-
-  // }
-
-  function aaa(): Promise<{}> {
-    return new Promise((rs) => {
-      rs(1);
-    });
+  declare global {
+    var LocalDataMessages: Root.LocalDataMessages;
   }
-
-  function aaaa(): Promise<undefined> {
-    return new Promise((rs) => {
-      rs();
-    });
-  }
-  async function cccc() {
-    const res: number = await aaa();
-  }
+  // @ts-ignore 暂时猥琐的挂上去
+  global.LocalDataMessages = {}
 }
